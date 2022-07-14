@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("KHI%.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-blend-mode: initial;
+}
+
+.header {
+  grid-area: header;
+  color: gold;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  grid-area: left;
+}
+
+.middle {
+  grid-area: middle;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }  
+}
+
+tr:hover{
+    background-color: #2a2b2ab2;
+  color: white
+}
+
+#t01 th {
+  background-color: black;
+  color: white;
+ 
+}
+
+</style>
+</head>
+<body>
+<div class="grid-container">
+</div>
+<table width=100% border="2" id="t01">
+    <tr style="background-color:rgba(58, 58, 58, 0.349); color: rgb(255, 255, 255);">  
+        <th><a href="Final Project.html">Home </a></th>
+        <th><a href="about.html">About Karachi</a></th>
+        <th><a href="Gallery.html">Gallery</a></th>
+        <th><a href="contactus.html">Contact US</th>
+     </tr>
+</table>
+    <div class="header">  
+        <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">KARACHI</h2>  
+        <marquee style="color:rgb(0, 0, 0); "><h5>THE CITY OF LIGHTS</h5></marquee>
+
+    </div>
+    
+    <div style="background-color:rgba(255, 255, 255, 0.151); font-family: monospace; font-weight: bold; font-size: 20px;"><h2>Why Karachi ?</h2>
+    <table>
+        <tr>
+            <td>Ah yes, Karachi the largest city in Pakistan and the fifth largest city in the world has a lot more to offer than all the humidity and loadshedding that it’s infamous for. Being the city of lights, it has beaches, an insane amount of chai, and its authentic biryani is to die for. Visiting Karachi is one of the best things that you can do for yourself.
+
+                While it is a popular saying that “Jinne Lahore ni dekha, wo jimmiya hi nai” – people who have not seen the city of Lahore have not truly lived their lives –  we at Ktown Rooms believe that Karachi is the sleepless city that has much more to offer without making any empty promises. The city has so much to boast about, but it remains humble and hardworking as the economic and cultural backbone of the country.
+                
+                Lahore and Karachi of these cities has something unique to offer to visitors. Instead, we are going to take a look at some facts about Karachi to help you understand the reasons why you should visit Karachi at least once in your life. Of course, if you plan on visiting Karachi, you will definitely fall in love with it. You will also need a safe, comfortable and affordable accommodation for your stay in Karachi but we will get to that later.
+                
+                Here are some of the reasons why you should visit Karachi.</td>
+               
+        </tr>
+        <tr>    
+
+        </table>
+    </div>
+
+
+</body>
+</html>

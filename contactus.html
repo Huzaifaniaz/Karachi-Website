@@ -1,0 +1,65 @@
+<html>
+<head>
+    <table width=100% border="2" id="t01">
+        <tr style="background-color:rgba(58, 58, 58, 0.349); color: rgb(255, 255, 255);">  
+            <th><a href="Final Project.html">Home </a></th>
+            <th><a href="about.html">About Karachi</a></th>
+            <th><a href="Gallery.html">Gallery</a></th>
+            <th><a href="contactus.html">Contact US</th>
+         </tr>
+    </table>
+<style>
+    .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+ #textbox{
+    height: 50px;
+    font-style: normal;
+    border-spacing: 20px;
+    padding-bottom: 10px;
+}
+textbox:hover{
+    background-color: rgb(122, 204, 204);
+    color: lightpink;
+}
+</style>
+</head>
+<body style="background-image: url('KHI2.jpg');; ">
+   <center> <h3>Contact Form</h3></center>
+   
+        <div class="container">
+            <table style="font-family: Arial, Helvetica, sans-serif; font-weight: bolder; padding: 50px; font-size: 30px; height: 200px;">
+
+            <tr><td><label for="fname">First Name</label></td></tr>
+           <tr><td><input type="text" id="textbox" name="firstname" placeholder="Your name.."style=width:400px;  ></td></tr>
+
+            <tr><td><label for="lname">Last Name</label></td></tr>
+           <tr><td> <input type="text" id="textbox" name="lastname" placeholder="Your last name.." style=width:400px; ></td></tr>
+
+            <tr><td><label for="email">E-mail address</label></td></tr>
+            <tr><td><input type="email" id="textbox" placeholder="Your email.." style=width:400px; ></td></tr>
+
+           <tr><td> <label for="country">Country</label></tr></td>
+            <tr><td><select id="textbox" name="country" style=width:400px; >
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="Nzeland">New Zeland</option>
+                <option value="safrica">South Africa</option>
+                <option value="china">China</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="other">Other</option>
+            </select></tr></td>
+
+           <tr><td> <label for="Remarks" style="text-align: center;">Remarks</label></td></tr>
+           <tr><td> <textarea id="textbox" name="subject" placeholder="Write something.." style="width:400px"></textarea></td></tr>
+
+           <tr><td> <input type="submit" id="textbox" value="Submit" style=width:400px; onclick="refreshpage()" ></td></tr>
+        </div>
+    </table>
+</body>
+</html>
